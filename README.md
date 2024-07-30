@@ -4,13 +4,12 @@ Task Managment Users
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+![3](https://github.com/user-attachments/assets/0b0a5405-fe3a-418f-b65c-e20c09d96144) ![2](https://github.com/user-attachments/assets/12942ef9-3ce7-4f79-89fd-9c4967dd0788)
+![1](https://github.com/user-attachments/assets/90d6e665-a6e0-4b81-a05f-0a111688627b) ![4](https://github.com/user-attachments/assets/d051e70c-ba58-45a2-9417-fa10f51c9b75)
+![photo_2024-07-31_00-23-38](https://github.com/user-attachments/assets/a9c4b156-ef6f-4f91-ae72-5765df3978e4) ![photo_2024-07-31_00-23-31](https://github.com/user-attachments/assets/07ce7531-faa6-4112-ac34-d317ab4e67ff)
+![photo_2024-07-31_00-22-27](https://github.com/user-attachments/assets/a41e66b8-71d4-41fd-ad1c-528bb6001519) ![photo_2024-07-31_00-24-02](https://github.com/user-attachments/assets/2b623021-b181-4643-bb57-1cc13478f620)
+![photo_2024-07-31_00-23-58](https://github.com/user-attachments/assets/d43b71c7-9fa0-40de-b383-44cea1769d8a)
+![photo_2024-07-31_00-23-42](https://github.com/user-attachments/assets/0c9b120a-4d97-48fa-b240-a791bd8e83ed)
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
