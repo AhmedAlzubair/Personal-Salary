@@ -15,11 +15,6 @@ class UserPref {
     myServices.sharedPreferences.setString('PASSWORD', password);
     myServices.sharedPreferences.setString('NODE', node);
     myServices.sharedPreferences.setString('TOKEN', token);
-    // pref.setString('NAME', name);
-    // pref.setString('EMAIL', email);
-    // pref.setString('PASSWORD', password);
-    // pref.setString('NODE', node);
-    // pref.setString('TOKEN', token);
             FirebaseMessaging.instance
             .subscribeToTopic("users${token}");
              FirebaseMessaging.instance.subscribeToTopic("users");
@@ -37,12 +32,5 @@ class UserPref {
       'NODE': myServices.sharedPreferences.getString('NODE')!,
       'TOKEN': myServices.sharedPreferences.getString('TOKEN')!,
     };
-    // return {
-    //   'NAME':pref.getString('NAME')!,
-    //   'EMAIL': pref.getString('EMAIL')!,
-    //   'PASSWORD': pref.getString('PASSWORD')!,
-    //   'NODE': pref.getString('NODE')!,
-    //   'TOKEN': pref.getString('TOKEN')!,
-    // };
   }
 }

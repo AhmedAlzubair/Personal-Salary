@@ -46,37 +46,7 @@ class LoginControllerImp extends LoginController {
       FirebaseService.loginAccount();
     }
   }
-  // @override
-  // login() async {
-  //   DBQuery dBQuery = DBQuery();
-  //   if (formstate.currentState!.validate()) {
-  //     statusRequest = StatusRequest.loading;
-  //     update();
-  //     myuser = await dBQuery.getUser(
-  //         email.text.toString(), password.text.toString());
-  //     if (myuser.isNotEmpty) {
-  //       statusRequest = StatusRequest.success;
-  //       Get.toNamed(AppRoute.home);
-  //       myServices.sharedPreferences
-  //           .setString("userid", myuser.first.userId.toString());
-  //       myServices.sharedPreferences.setString("step", "2");
-  //       // update();
-  //       // String userid = !;
-  //       FirebaseMessaging.instance.subscribeToTopic("users");
-  //       FirebaseMessaging.instance
-  //           .subscribeToTopic("users${myuser.first.userId}");
-  //       update();
-  //     } else {
-  //       // Get.toNamed(AppRoute.,
-  //       //     arguments: {"email": email.text});
-  //     }
-  //   } else {
-  //     Get.defaultDialog(
-  //         title: "ُWarning", middleText: "Email Or Password Not Correct");
-  //     //statusRequest = StatusRequest.failure;
-  //   }
-  //   update();
-  // }
+
 
   @override
   goToSignUp() {
@@ -85,10 +55,7 @@ class LoginControllerImp extends LoginController {
 
   @override
   void onInit() {
-    // FirebaseMessaging.instance.getToken().then((value) {
-    //   print(value);
-    //   String? token = value;
-    // });
+ 
     email = TextEditingController();
     password = TextEditingController();
     super.onInit();

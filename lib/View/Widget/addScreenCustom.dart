@@ -13,8 +13,7 @@ class AddScreenCustom extends GetView<AddHomeController> {
     return  GetBuilder<AddHomeController>(
       builder: (controller) => 
    Row(
-                //mainAxisAlignment: MainAxisAlignment.end,
-                // crossAxisAlignment: CrossAxisAlignment.end,
+
                 children: [
                 const  Expanded(
                     flex: 2,

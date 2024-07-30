@@ -29,8 +29,6 @@ class FirebaseService {
   FlutterLocalNotificationsPlugin flutterLocalNotificationsPlugin =
       FlutterLocalNotificationsPlugin();
 
-//flutterLocalNotificationsPlugin.resolvePlatformSpecificImplementation< AndroidFlutterLocalNotificationsPlugin>().requestPermission();
-
   requestPermissionNotification() async {
     NotificationSettings settings =
         await FirebaseMessaging.instance.requestPermission(
@@ -67,32 +65,6 @@ class FirebaseService {
 
   onDidReceiveLocalNotification(
       int id, String? title, String? body, String? payload) async {
-    // display a dialog with the notification details, tap ok to go to another page
-    // showDialog(
-    //   context: context,
-    //   builder: (BuildContext context) => CupertinoAlertDialog(
-    //     title: Text(title!),
-    //     content: Text(body!),
-    //     actions: [
-    //       CupertinoDialogAction(
-    //         isDefaultAction: true,
-    //         child: Text('Ok'),
-    //         onPressed: () async {
-    //           Navigator.of(context, rootNavigator: true).pop();
-    //           await Navigator.push(
-    //             context,
-    //             MaterialPageRoute(
-    //               builder: (context) {
-    //                 return Container();
-    //               },
-    //             ),
-    //           );
-    //         },
-    //       )
-    //     ],
-    //   ),
-    // );
-
     Get.dialog(Text("data"));
   }
 
@@ -102,12 +74,6 @@ class FirebaseService {
     if (notificationResponse.payload != null) {
       debugPrint('notification payload: $payload');
     }
-    // await Navigator.push(
-    //   context,
-    //   MaterialPageRoute<void>(builder: (context) {
-    //     return Container();
-    //   }),
-    // );
     Get.dialog(Text("data"));
   }
 
@@ -190,8 +156,8 @@ class FirebaseService {
   }
 
   sendNotfiy(String title, String body, String id, String type) async {
-    String serverTok =
-        "AAAA7PN1Nt4:APA91bHJHH3EUX-d5ap38_3ArnxUSXCOWG61e9G8lcYOW54wXiqncIKIEdcO4QimdEC8ksnynNQCvF-7l-yHhcB6QeHVJuSJ6zCqDm-4U_UTnicsp2COcfzzvbzM64ywYnaB2GwUBD6f";
+    String serverTok = "";
+
     await http.post(Uri.parse('https://fcm.googleapis.com/fcm/send'),
         headers: <String, String>{
           'Authorization': 'key=$serverTok ',
@@ -274,22 +240,23 @@ class FirebaseService {
       // signUpController.setLoading(true);
     }
   }
+
   static Future<void> forgetPassword() async {
-   try{
-     await auth.sendPasswordResetEmail(email: signInController.email.text);
-     Get.rawSnackbar(
-         title: "اشعار",
-         duration:const Duration(seconds: 1),
-         messageText: const Text(" تم ارسال كود التحقق الى حسابك  "));
-   }
-   catch(error){
-     print(error);
-     Get.rawSnackbar(
-         title: "Error",
-         duration:const Duration(seconds: 1),
-         messageText: const Text(" Enter the Email   "));
-   }
+    try {
+      await auth.sendPasswordResetEmail(email: signInController.email.text);
+      Get.rawSnackbar(
+          title: "اشعار",
+          duration: const Duration(seconds: 1),
+          messageText: const Text(" تم ارسال كود التحقق الى حسابك  "));
+    } catch (error) {
+      print(error);
+      Get.rawSnackbar(
+          title: "Error",
+          duration: const Duration(seconds: 1),
+          messageText: const Text(" Enter the Email   "));
+    }
   }
+
   static Future<void> loginAccount() async {
     try {
       signInController.setStatusRequest(StatusRequest.loading);
@@ -329,7 +296,7 @@ class FirebaseService {
                 color: Colors.red,
               ));
           signInController.setStatusRequest(StatusRequest.failure);
-           Get.toNamed(AppRoute.login);
+          Get.toNamed(AppRoute.login);
         });
       }).onError((error, stackTrace) {
         Utils.showSnackBar(
@@ -340,7 +307,7 @@ class FirebaseService {
               color: Colors.red,
             ));
         //signInController.setStatusRequest(StatusRequest.offlinefailure);
-         Get.toNamed(AppRoute.login);
+        Get.toNamed(AppRoute.login);
       });
     } catch (e) {
       Utils.showSnackBar(
@@ -351,7 +318,7 @@ class FirebaseService {
             color: Colors.red,
           ));
       //signInController.setLoading(true);
-       Get.toNamed(AppRoute.login);
+      Get.toNamed(AppRoute.login);
     }
   }
 

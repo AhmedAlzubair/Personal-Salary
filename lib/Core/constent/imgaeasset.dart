@@ -7,9 +7,6 @@ class AppImageAsset {
   static const String onBoardingImageOne = "$rootImages/onbor1.png";
   static const String onBoardingImageTwo = "$rootImages/onb2.png";
   static const String onBoardingImageThree = "$rootImages/nodata.png";
-  // static const String onBoardingImageOne = "$rootImages/one.PNG";
-  // static const String onBoardingImageTwo = "$rootImages/two.PNG";
-  // static const String onBoardingImageThree = "$rootImages/three.PNG";
 
 
 
@@ -22,9 +19,5 @@ class AppImageAsset {
 
    static const String avatar = "$rootImages/avatar.png" ; 
 
-
-  //  static const String avatar = "$rootImages/avatar.png" ; 
-
-  // static const String onBoardingImageFour   = "$rootImages/onboardingfour.PNG" ;
 
 }

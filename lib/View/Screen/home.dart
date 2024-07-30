@@ -61,10 +61,6 @@ class HomePage extends StatelessWidget {
                               final list = controller.myList.firstWhere(
                                   (element) => element.list_id == list_id);
                               String nameList = list.list_name!;
-                              // DateTime dateTime = DateFormat.jm().parse(
-                              //     controller.mytaskModel[index].startTime
-                              //         .toString());
-                              // var myTime = DateFormat("HH:mm").format(dateTime);
                               controller.schedulingNotification(
                               //   int.parse(myTime.toString().split(":")[0]),
                               // int.parse(myTime.toString().split(":")[1]),
