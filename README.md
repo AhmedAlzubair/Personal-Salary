@@ -4,11 +4,21 @@ Task Parsonal Salary
 
 ## Getting Started
 The application enables the user to manage expenses.
- ![2](https://github.com/user-attachments/assets/12942ef9-3ce7-4f79-89fd-9c4967dd0788)![1](https://github.com/user-attachments/assets/90d6e665-a6e0-4b81-a05f-0a111688627b) 
-![3](https://github.com/user-attachments/assets/0b0a5405-fe3a-418f-b65c-e20c09d96144)![4](https://github.com/user-attachments/assets/d051e70c-ba58-45a2-9417-fa10f51c9b75)
-![photo_2024-07-31_00-23-38](https://github.com/user-attachments/assets/a9c4b156-ef6f-4f91-ae72-5765df3978e4) ![photo_2024-07-31_00-23-31](https://github.com/user-attachments/assets/07ce7531-faa6-4112-ac34-d317ab4e67ff)
-![photo_2024-07-31_00-22-27](https://github.com/user-attachments/assets/a41e66b8-71d4-41fd-ad1c-528bb6001519) ![photo_2024-07-31_00-24-02](https://github.com/user-attachments/assets/2b623021-b181-4643-bb57-1cc13478f620)
-![photo_2024-07-31_00-23-58](https://github.com/user-attachments/assets/d43b71c7-9fa0-40de-b383-44cea1769d8a)![photo_2024-07-31_00-23-42](https://github.com/user-attachments/assets/0c9b120a-4d97-48fa-b240-a791bd8e83ed)
+![2](https://github.com/user-attachments/assets/57a36d6f-880b-42f9-b58e-943c09ada537)![1](https://github.com/user-attachments/assets/8338fa1d-659b-4968-9eca-5f9cd65b0d1a)
+![4](https://github.com/user-attachments/assets/dd0809a6-3d67-41fe-a8de-a51749fccf08)![3](https://github.com/user-attachments/assets/58589d09-e0da-4aa9-b55f-1f0c21ac809a)
+![5](https://github.com/user-attachments/assets/a7e4c492-a405-4ce9-a2a3-ee6013fb189b)![6](https://github.com/user-attachments/assets/1e4cce2e-2a9f-4c1a-baf5-cfbaa6f61dee)
+![7](https://github.com/user-attachments/assets/6e849803-e261-410a-b954-95cf9536b351)![8](https://github.com/user-attachments/assets/e3de0a14-4cee-4e3f-ae98-1ba7df13e763)
+![9](https://github.com/user-attachments/assets/c6764821-508a-4671-b2dc-f54c911e2344![11](https://github.com/user-attachments/assets/2bed34f5-e925-48d1-a93f-5c1d1f868f5a)
+![12](https://github.com/user-attachments/assets/e5f37003-a2d8-4241-a410-93a9b3b44e7b)
+
+
+
+
+
+
+
+
+
 
 
 
